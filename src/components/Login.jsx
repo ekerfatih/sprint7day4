@@ -1,8 +1,10 @@
 ﻿import {Button, Form, FormFeedback, FormGroup, Input, Label} from "reactstrap";
+import BubbleBackground from "./bubbles.jsx";
 
 function Login({onSubmit,onChange,buttonActive,errors,valids}) {
     return (
         <div className="content">
+            <BubbleBackground />
             <div className="wrapper">
                 <h1 className="dynapuff">Login</h1>
                 <div className="credentials">
@@ -73,6 +75,7 @@ function Login({onSubmit,onChange,buttonActive,errors,valids}) {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
