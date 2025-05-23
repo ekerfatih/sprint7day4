@@ -1,0 +1,68 @@
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    height: 650px;
+    background-color: #E3E3E3FF;
+    border-radius: 50px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.wrapper h1 {
+    margin: 40px 0;
+}
+
+.dynapuff {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.credentials {
+    width: 70%;
+    margin-top: 10%;
+}
+
+.form-check{
+    display: flex;
+}
+.terms {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.submit {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.new {
+    display: flex;
+    justify-content: space-around;
+}
+
+.new span {
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+
+.new a {
+    text-decoration: none;
+}
+
+
+
